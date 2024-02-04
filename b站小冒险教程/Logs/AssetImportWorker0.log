@@ -1,0 +1,292 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.8f1c1 (c20728c1e961) revision 12715816'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 32682 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity软件安装\2021.3.8f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity projects/b站小冒险教程
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52852
+Successfully changed project path to: D:/Unity projects/b站小冒险教程
+D:/Unity projects/b站小冒险教程
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 179.42 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1c1 (c20728c1e961)
+[Subsystems] Discovering subsystems at path E:/Unity软件安装/2021.3.8f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity projects/b站小冒险教程/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
+    Vendor:   NVIDIA
+    VRAM:     8002 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'E:/Unity软件安装/2021.3.8f1c1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity软件安装/2021.3.8f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity软件安装/2021.3.8f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity软件安装/2021.3.8f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004278 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 171.47 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.890 seconds
+Domain Reload Profiling:
+	ReloadAssembly (891ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (647ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (135ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (406ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (172ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.018039 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity projects\b站小冒险教程\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity projects\b站小冒险教程\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 176.54 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.950 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1951ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1645ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (465ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (125ms)
+			SetupLoadedEditorAssemblies (856ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (177ms)
+				BeforeProcessingInitializeOnLoad (186ms)
+				ProcessInitializeOnLoadAttributes (368ms)
+				ProcessInitializeOnLoadMethodAttributes (107ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6099 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.6 MB). Loaded Objects now: 6554.
+Memory consumption went from 246.1 MB to 244.6 MB.
+Total: 5.006200 ms (FindLiveObjects: 0.529400 ms CreateObjectMapping: 0.724800 ms MarkObjects: 2.941400 ms  DeleteObjects: 0.809400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8799.186241 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Mesh/VFX Blade.fbx
+  artifactKey: Guid(a870e79c1afcf43489e92697f035cb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Mesh/VFX Blade.fbx using Guid(a870e79c1afcf43489e92697f035cb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f48704dfafbec1391e78f351d35d08') in 0.553691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Materials/Bullet_Core_VFX Green.mat
+  artifactKey: Guid(5792eb6f59add44429bbcab8101d490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Materials/Bullet_Core_VFX Green.mat using Guid(5792eb6f59add44429bbcab8101d490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b79c73cee054385743b587a5c60139c') in 0.177084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Materials/Shader Graphs_DissolveVFX.mat
+  artifactKey: Guid(5a3c43a200ea6cf4f921a275413341e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Materials/Shader Graphs_DissolveVFX.mat using Guid(5a3c43a200ea6cf4f921a275413341e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd78cca9bfea4295ad85e0bac4fd93ca') in 0.017818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Textures/cloudSequence0.png
+  artifactKey: Guid(5bed5e6e5078cc446a824f4823edb56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Textures/cloudSequence0.png using Guid(5bed5e6e5078cc446a824f4823edb56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa2b4e931ec6101d0718ae9f9357ee8') in 0.131492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Materials/Bullet_Hit_Ring.mat
+  artifactKey: Guid(04098ae09d670034c94020670fcd5efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Materials/Bullet_Hit_Ring.mat using Guid(04098ae09d670034c94020670fcd5efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e974f5d2f50428fc8d95cef3de2bdc') in 0.367292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Shaders/Blood.shadergraph
+  artifactKey: Guid(16241ab636762e845ac736fc7356dbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Shaders/Blood.shadergraph using Guid(16241ab636762e845ac736fc7356dbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b480642ecbef22e2f070ef003adf0a22') in 0.028497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000684 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Mesh/VFX_Cone_Plane.fbx
+  artifactKey: Guid(cbe5bd7b74e81ee4194cd311c9cbd896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Mesh/VFX_Cone_Plane.fbx using Guid(cbe5bd7b74e81ee4194cd311c9cbd896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdb9773318c37f4dcd59cdb28eff588') in 0.062463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Materials/Bullet_VFX_Material.mat
+  artifactKey: Guid(28a47e74fe975974b9bb7259008ff8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Materials/Bullet_VFX_Material.mat using Guid(28a47e74fe975974b9bb7259008ff8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7c8ac3bda7fc440d80eeb664f7aa5b') in 0.020231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Textures/CartoonSphere.png
+  artifactKey: Guid(8d15a84bdba00fb479bf6f94596d76fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Textures/CartoonSphere.png using Guid(8d15a84bdba00fb479bf6f94596d76fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5e82a039650aa98de663b0d15533a0') in 0.021760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Textures/GradientMask_02.png
+  artifactKey: Guid(d583356ed3e12444f87a86963dcdb9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Textures/GradientMask_02.png using Guid(d583356ed3e12444f87a86963dcdb9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a51392999e0f864d45d3e6e0e59f0aa') in 0.022070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Materials/Cloud_Material Mainmenu.mat
+  artifactKey: Guid(8aaae506f584c084bacd9c5d07f377ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Materials/Cloud_Material Mainmenu.mat using Guid(8aaae506f584c084bacd9c5d07f377ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb1a748631b567a0b544eb8a2ecd689') in 0.245310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Materials/CoinCollected_02.mat
+  artifactKey: Guid(08c570fe99bf129499218f37cf92567f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Materials/CoinCollected_02.mat using Guid(08c570fe99bf129499218f37cf92567f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305ebef56f2ade00cdc5bac01d235d8f') in 0.018384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Mesh/VFX_Slash.fbx
+  artifactKey: Guid(2e29748dc7444364b82d7f8e6a77cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Mesh/VFX_Slash.fbx using Guid(2e29748dc7444364b82d7f8e6a77cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc76f71568b22742f777a32913ef6cf5') in 0.059933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Mesh/VFX_Cone_Plane_reversed.fbx
+  artifactKey: Guid(fdc1733a5804e5b488686d0f59e8b5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Mesh/VFX_Cone_Plane_reversed.fbx using Guid(fdc1733a5804e5b488686d0f59e8b5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968287f40d06a35c19c22879eca01a47') in 0.057452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Textures/GradientMask.png
+  artifactKey: Guid(232c60d6ca6852a4b982c2211917cb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Textures/GradientMask.png using Guid(232c60d6ca6852a4b982c2211917cb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c0e2ee44f8ce0f30783ef83962169e') in 0.042255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Textures/Ring.png
+  artifactKey: Guid(6dbe75f95fe03ed4eaa4930d77486268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Textures/Ring.png using Guid(6dbe75f95fe03ed4eaa4930d77486268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7356bd140b32e6a25e6d63b13740e243') in 0.047848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Mesh/VFX_Sphere02.fbx
+  artifactKey: Guid(7ef73355e5eeede48bd9111487e81083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Mesh/VFX_Sphere02.fbx using Guid(7ef73355e5eeede48bd9111487e81083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922a8c1932b6b8e70c774b235878a00b') in 0.056420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Textures/SmoothMask.png
+  artifactKey: Guid(bc441fadbdc79cb4e9bfc45fd13ea426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Textures/SmoothMask.png using Guid(bc441fadbdc79cb4e9bfc45fd13ea426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24afb1ccd3e08a4970d8f93d64b3aef8') in 0.052435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Materials/HURT_Material.mat
+  artifactKey: Guid(826923abba386d8478cfa51cd4c234bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Materials/HURT_Material.mat using Guid(826923abba386d8478cfa51cd4c234bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d57597d94fbcb233210148603902573') in 0.036541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.870304 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Shaders/Sword Edge.shadergraph
+  artifactKey: Guid(645eeebc711372b44ad9e185ea27f036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Shaders/Sword Edge.shadergraph using Guid(645eeebc711372b44ad9e185ea27f036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f993aa4610d8a564a055f7f3e096ae9') in 0.002161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.826361 seconds.
+  path: Assets/ProjectLittleAdventurer/VFX/Prefab
+  artifactKey: Guid(ea580e3c8f097e14d9b675c19aca3a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectLittleAdventurer/VFX/Prefab using Guid(ea580e3c8f097e14d9b675c19aca3a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa11fca20c68ed4af88bec17c23f4f5') in 0.001906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.244687 seconds.
+  path: Assets/Scenes/Gamescene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gamescene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f882e9c32b7855f222172caca2c9de5d') in 0.001859 seconds 
